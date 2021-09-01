@@ -1,0 +1,87 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 15px;
+}
+.LogoDiv {
+  display: flex;
+  align-items: center;
+}
+.NameDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.NameDiv h1 {
+  font-size: 1.5rem;
+}
+.NameDiv p {
+  letter-spacing: 6px;
+  font-size: 0.8rem;
+}
+
+.ContentWrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.Js {
+  text-shadow: 2px 2px 1px rgb(231, 231, 231), 3px 3px 1px rgb(231, 231, 231);
+  color: rgb(253, 253, 253);
+  font-weight: 900;
+  padding: 0px 20px;
+}
+.jsDiv {
+  width: 100%;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 900px) {
+  .jsDiv {
+    width: 100%;
+    font-size: 9rem;
+    display: flex;
+    justify-content: left;
+  }
+  .imgWrapperDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    outline: 2px solid blue;
+    margin-top: 30px;
+  }
+  .nameDiv {
+    max-width: 400px;
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+  .NamePTag {
+    font-size: 1rem;
+  }
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  margin: 25px auto;
+}
+.imgDiv > img {
+  width: 12rem;
+}
+.nameDiv {
+  width: 70%;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  line-height: 2.2rem;
+}
+.nameDiv > p {
+  font-size: 0.9rem;
+  color: rgb(15, 20, 30);
+  letter-spacing: 5px;
+}
