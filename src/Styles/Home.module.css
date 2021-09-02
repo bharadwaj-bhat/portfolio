@@ -3,7 +3,21 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  /* position: fixed; */
   padding: 10px 15px;
+}
+.NavigationLinks {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  padding-bottom: 3px;
+}
+.NavigationLinks :hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(245, 0, 87);
 }
 .LogoDiv {
   display: flex;
@@ -25,9 +39,11 @@
 .ContentWrapper {
   width: 90%;
   margin: auto;
+  position: relative;
 }
 
 .Js {
+  margin-top: 50px;
   text-shadow: 2px 2px 1px rgb(231, 231, 231), 3px 3px 1px rgb(231, 231, 231);
   color: rgb(253, 253, 253);
   font-weight: 900;
@@ -40,35 +56,11 @@
   justify-content: center;
 }
 
-@media (min-width: 900px) {
-  .jsDiv {
-    width: 100%;
-    font-size: 9rem;
-    display: flex;
-    justify-content: left;
-  }
-  .imgWrapperDiv {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    outline: 2px solid blue;
-    margin-top: 30px;
-  }
-  .nameDiv {
-    max-width: 400px;
-    font-size: 2rem;
-    line-height: 4rem;
-  }
-  .NamePTag {
-    font-size: 1rem;
-  }
-}
-
 .imgDiv {
   display: flex;
   justify-content: center;
   font-weight: 400;
-  margin: 25px auto;
+  margin: 45px auto;
 }
 .imgDiv > img {
   width: 12rem;
@@ -78,10 +70,55 @@
   display: flex;
   text-align: left;
   flex-direction: column;
-  line-height: 2.2rem;
+  line-height: 2.8rem;
 }
 .nameDiv > p {
   font-size: 0.9rem;
   color: rgb(15, 20, 30);
   letter-spacing: 5px;
+}
+.iconsDiv {
+  display: flex;
+  width: 50%;
+  margin-top: 25px;
+  font-size: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  .jsDiv {
+    width: 100%;
+    font-size: 9rem;
+    margin-top: -30px;
+    display: flex;
+    justify-content: left;
+  }
+  .imgWrapperDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .imgDiv {
+    position: relative;
+    top: -50px;
+    left: 150px;
+  }
+
+  .nameDiv {
+    max-width: 400px;
+    font-size: 1.8rem;
+    line-height: 4rem;
+  }
+  .NamePTag {
+    font-size: 1rem;
+  }
+  .iconsDiv {
+    width: 24%;
+    margin-top: -20px;
+    justify-content: space-evenly;
+  }
 }
