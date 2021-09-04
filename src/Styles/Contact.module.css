@@ -1,0 +1,20 @@
+.contactWrapper {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.contactWrapper h3 {
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #878a8f;
+  letter-spacing: 5px;
+}
+
+.contactWrapper h1 {
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  border-bottom: 4px solid rgb(245, 0, 87);
+}

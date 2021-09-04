@@ -1,0 +1,72 @@
+.ProficienciesWrapper {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.iconsWrapper {
+  display: flex;
+  flex-direction: column;
+  color: rgb(15, 20, 30);
+}
+.ProficienciesWrapper h3 {
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #878a8f;
+  letter-spacing: 5px;
+}
+.ProficienciesWrapper h1 {
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  border-bottom: 4px solid rgb(245, 0, 87);
+}
+
+.iconsWrapper > div {
+  width: 65%;
+  margin: 35px auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: baseline;
+  gap: 40px;
+}
+
+.iconsWrapper img {
+  width: 50px;
+  padding-bottom: 5px;
+}
+.iconsWrapper > div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iconsWrapper > div div p:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(245, 0, 87);
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  .ProficienciesWrapper h1 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    border-bottom: 5px solid rgb(245, 0, 87);
+  }
+  .ProficienciesWrapper h3 {
+    font-size: 1rem;
+  }
+  .iconsWrapper > div {
+    width: 75%;
+    margin: 75px auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: baseline;
+    gap: 60px;
+  }
+}
