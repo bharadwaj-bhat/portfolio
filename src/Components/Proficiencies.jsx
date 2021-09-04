@@ -2,7 +2,7 @@ import styles from "../Styles/Proficiencies.module.css";
 
 export const Proficiencies = () => {
   return (
-    <div className={styles.ProficienciesWrapper}>
+    <div id="skills" className={styles.ProficienciesWrapper}>
       <h3> SKILLS AND </h3>
       <h1> Proficiencies </h1>
       <div className={styles.iconsWrapper}>

@@ -3,8 +3,10 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  /* position: fixed; */
+  position: fixed;
   padding: 10px 15px;
+  background-color: white;
+  z-index: 1;
 }
 .NavigationLinks {
   display: flex;
@@ -43,7 +45,7 @@
 }
 
 .Js {
-  margin-top: 50px;
+  margin-top: 80px;
   text-shadow: 2px 2px 1px rgb(231, 231, 231), 3px 3px 1px rgb(231, 231, 231);
   color: rgb(253, 253, 253);
   font-weight: 900;
@@ -88,6 +90,9 @@
 }
 
 @media (min-width: 900px) {
+  .Home {
+    margin: 30px auto;
+  }
   .jsDiv {
     width: 100%;
     font-size: 9rem;
