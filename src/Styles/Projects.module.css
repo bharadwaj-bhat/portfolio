@@ -1,0 +1,32 @@
+.ProjectsWrapper {
+  width: 90%;
+  margin: 50px auto;
+  color: rgb(15, 20, 30);
+}
+
+.ProjectsWrapper h3 {
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #878a8f;
+  letter-spacing: 5px;
+}
+.ProjectsWrapper h1 {
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  border-bottom: 4px solid rgb(245, 0, 87);
+}
+.ProjectsWrapper h4 {
+  text-align: left;
+  color: #878a8f;
+  padding: 30px 0px;
+  font-weight: 500;
+}
+.sliderWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 25px auto;
+}

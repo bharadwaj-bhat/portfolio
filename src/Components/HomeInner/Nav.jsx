@@ -100,6 +100,14 @@ export const Nav = () => {
                 <p className={classes.p}> Proficiencies </p>
               </Link>
               <Link
+                to="Projects"
+                onClick={() => setOpen(false)}
+                smooth={true}
+                duration={600}
+              >
+                <p className={classes.p}> Projects </p>
+              </Link>
+              <Link
                 to="Contact"
                 onClick={() => setOpen(false)}
                 smooth={true}
@@ -121,7 +129,7 @@ export const Nav = () => {
           <Link to="skills" smooth={true} duration={400} offset={-80}>
             <p> Proficiencies </p>
           </Link>
-          <Link to="" smooth={true} duration={600}>
+          <Link to="Projects" smooth={true} duration={600}>
             <p> Projects </p>
           </Link>
 
