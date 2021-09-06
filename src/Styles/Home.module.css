@@ -26,9 +26,8 @@
   align-items: center;
 }
 .LogoDiv img {
-  width: 70px;
-  margin: 0px -5px;
-  padding: 0px 0px;
+  width: 50px;
+  margin: 3px 10px;
 }
 .NameDiv {
   display: flex;
