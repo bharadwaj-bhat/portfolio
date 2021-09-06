@@ -1,0 +1,48 @@
+.AboutWrapper {
+  width: 90%;
+  margin: 50px auto;
+  color: rgb(15, 20, 30);
+}
+
+.AboutWrapper p {
+  text-align: left;
+  margin-top: 25px;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+}
+.AboutWrapper h3 {
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #878a8f;
+  letter-spacing: 5px;
+}
+.AboutWrapper h1 {
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  border-bottom: 4px solid rgb(245, 0, 87);
+}
+.AboutWrapper img {
+  max-width: 60%;
+  margin-bottom: -15px;
+}
+@media (min-width: 900px) {
+  .AboutWrapper h1 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    border-bottom: 5px solid rgb(245, 0, 87);
+  }
+  .AboutWrapper h3 {
+    font-size: 1rem;
+  }
+  .AboutWrapper p {
+    text-align: left;
+    margin-top: 35px;
+    line-height: 3rem;
+    letter-spacing: 4px;
+    font-size: 1.6rem;
+  }
+}

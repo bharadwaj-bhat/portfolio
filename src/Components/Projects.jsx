@@ -92,6 +92,62 @@ export const Projects = () => {
           <br />
         </div>
         <div>
+          <div style={{ height: "120px", marginTop: "20px" }}>
+            <h4
+              style={{
+                padding: "0px 0px",
+                marginBottom: "-15px",
+              }}
+            >
+              {" "}
+              <span>Travel Guru</span>
+            </h4>
+            <h4>
+              A Travel website that allows users to book homestays and hotels at
+              your desired destination.{" "}
+            </h4>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-evenly",
+              alignItems: "center",
+              marginBottom: "20px",
+              marginTop: "-10px",
+              color: "#878a8f",
+            }}
+          >
+            <p> Tech Stacks - </p>
+            <img
+              src={window.location.origin + "/iconImages/reactBlueIcon.png"}
+              alt=""
+            />{" "}
+            <img
+              src={window.location.origin + "/iconImages/reduxIcon.png"}
+              alt=""
+            />
+          </div>
+          <div className={styles.buttonDiv}>
+            <button> Repo </button>
+            <button> Demo </button>
+            <button> Watch Demo </button>
+          </div>
+          <AutoplaySlider
+            cssModule={AwsSliderStyles}
+            infinite={true}
+            play={true}
+            cancelOnInteraction={true}
+            interval={2000}
+          >
+            <div data-src={window.location.origin + "/travelGuru/tr1.png"} />
+            <div data-src={window.location.origin + "/travelGuru/tr2.png"} />
+            <div data-src={window.location.origin + "/travelGuru/tr3.png"} />
+            <div data-src={window.location.origin + "/travelGuru/tr4.png"} />
+            <div data-src={window.location.origin + "/travelGuru/tr5.png"} />
+            <div data-src={window.location.origin + "/travelGuru/tr6.png"} />
+          </AutoplaySlider>
+        </div>
+        <div>
           <div
             style={{
               height: "120px",
@@ -141,96 +197,25 @@ export const Projects = () => {
             interval={2000}
           >
             <div
-              data-src={window.location.origin + "//growwImages/groww1.png"}
+              data-src={window.location.origin + "/milaapImages/milaap1.png"}
             />
             <div
-              data-src={window.location.origin + "/growwImages/groww2.png"}
+              data-src={window.location.origin + "/milaapImages/milaap2.png"}
             />
             <div
-              data-src={window.location.origin + "/growwImages/groww3.png"}
+              data-src={window.location.origin + "/milaapImages/milaap3.png"}
             />
             <div
-              data-src={window.location.origin + "/growwImages/groww4.png"}
+              data-src={window.location.origin + "/milaapImages/milaap4.png"}
             />
             <div
-              data-src={window.location.origin + "/growwImages/groww5.png"}
+              data-src={window.location.origin + "/milaapImages/milaap5.png"}
             />
             <div
-              data-src={window.location.origin + "/growwImages/groww6.png"}
+              data-src={window.location.origin + "/milaapImages/milaap.png"}
             />
             <div
-              data-src={window.location.origin + "/growwImages/groww7.png"}
-            />
-          </AutoplaySlider>
-        </div>
-        <div>
-          <div style={{ height: "120px", marginTop: "20px" }}>
-            <h4
-              style={{
-                padding: "0px 0px",
-                marginBottom: "-15px",
-              }}
-            >
-              {" "}
-              <span>Travel Guru</span>
-            </h4>
-            <h4>
-              A Travel website that allows users to book homestays and hotels at
-              your desired destination.{" "}
-            </h4>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-evenly",
-              alignItems: "center",
-              marginBottom: "20px",
-              marginTop: "-10px",
-              color: "#878a8f",
-            }}
-          >
-            <p> Tech Stacks - </p>
-            <img
-              src={window.location.origin + "/iconImages/reactBlueIcon.png"}
-              alt=""
-            />{" "}
-            <img
-              src={window.location.origin + "/iconImages/reduxIcon.png"}
-              alt=""
-            />
-          </div>
-          <div className={styles.buttonDiv}>
-            <button> Repo </button>
-            <button> Demo </button>
-            <button> Watch Demo </button>
-          </div>
-          <AutoplaySlider
-            cssModule={AwsSliderStyles}
-            infinite={true}
-            play={true}
-            cancelOnInteraction={true}
-            interval={2000}
-          >
-            <div
-              data-src={window.location.origin + "//growwImages/groww1.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww2.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww3.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww4.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww5.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww6.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww7.png"}
+              data-src={window.location.origin + "/milaapImages/milaap7.png"}
             />
           </AutoplaySlider>
         </div>

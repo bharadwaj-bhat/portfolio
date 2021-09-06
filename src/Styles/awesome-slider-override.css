@@ -10,7 +10,7 @@
   margin: 10px;
 }
 .awssld__bullets--active {
-  background: rgb(0, 208, 156) !important;
+  background: rgb(245, 0, 87) !important;
 }
 .awssld__loader {
   background: green;

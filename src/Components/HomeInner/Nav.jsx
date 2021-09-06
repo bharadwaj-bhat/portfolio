@@ -41,9 +41,12 @@ export const Nav = () => {
       className={styles.Home}
       initial={{ y: "100vh", opacity: "0" }}
       animate={{ y: 0, opacity: 1 }}
+      tracsition={{ duration: 200 }}
     >
       <div className={styles.LogoDiv}>
-        <div> Logo </div>
+        <div>
+          <img src={window.location.origin + "/myLogoCropped.jpeg"} alt="" />
+        </div>
         <div className={styles.NameDiv}>
           <h1> Bharadwaj Bhat</h1>
           <p> WEB DEVELOPER</p>
@@ -88,6 +91,7 @@ export const Nav = () => {
                 onClick={() => setOpen(false)}
                 smooth={true}
                 duration={500}
+                offset={-80}
               >
                 <p className={classes.p}> About </p>
               </Link>
@@ -96,6 +100,7 @@ export const Nav = () => {
                 onClick={() => setOpen(false)}
                 smooth={true}
                 duration={500}
+                offset={-80}
               >
                 <p className={classes.p}> Proficiencies </p>
               </Link>
@@ -104,6 +109,7 @@ export const Nav = () => {
                 onClick={() => setOpen(false)}
                 smooth={true}
                 duration={600}
+                offset={-80}
               >
                 <p className={classes.p}> Projects </p>
               </Link>
@@ -123,13 +129,13 @@ export const Nav = () => {
           <Link to="Home" smooth={true} duration={600}>
             <p> Home </p>
           </Link>
-          <Link to="About" smooth={true} duration={500}>
+          <Link to="About" smooth={true} duration={500} offset={-80}>
             <p> About </p>
           </Link>
           <Link to="skills" smooth={true} duration={400} offset={-80}>
             <p> Proficiencies </p>
           </Link>
-          <Link to="Projects" smooth={true} duration={600}>
+          <Link to="Projects" smooth={true} duration={600} offset={-80}>
             <p> Projects </p>
           </Link>
 

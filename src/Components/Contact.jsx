@@ -16,7 +16,7 @@ export const Contact = () => {
       <div className={styles.contactDiv}>
         <div>
           <PhoneIcon fontSize="inherit" />
-          <p> Call </p>
+          <p> Call (9742593327) </p>
         </div>
         <div>
           <EmailIcon fontSize="inherit" />

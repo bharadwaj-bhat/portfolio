@@ -25,6 +25,11 @@
   display: flex;
   align-items: center;
 }
+.LogoDiv img {
+  width: 70px;
+  margin: 0px -5px;
+  padding: 0px 0px;
+}
 .NameDiv {
   display: flex;
   flex-direction: column;
@@ -88,6 +93,19 @@
   align-items: center;
   cursor: pointer;
 }
+.downloadButton2 {
+  position: fixed;
+  left: 84%;
+  bottom: 5%;
+  font-size: 1.8rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 140px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+}
 
 @media (min-width: 900px) {
   .Home {
@@ -125,5 +143,22 @@
     width: 24%;
     margin-top: -20px;
     justify-content: space-evenly;
+  }
+  .downloadButton2 {
+    width: 240px;
+    font-size: 2.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    left: 78%;
+    bottom: 3%;
+    color: white;
+    z-index: 5;
+  }
+  .LogoDiv img {
+    width: 50px;
+    margin: 3px 10px;
   }
 }
