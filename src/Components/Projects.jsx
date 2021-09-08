@@ -56,14 +56,26 @@ export const Projects = () => {
             />
           </div>
           <div className={styles.buttonDiv}>
-            <button> Repo </button>
-            <button> Demo </button>
-            <button> Watch Demo </button>
+            <a
+              href="https://github.com/Rakesh-pilly/project_grow"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Repo
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              {" "}
+              Demo{" "}
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              {" "}
+              Watch Demo{" "}
+            </a>
           </div>
           <AutoplaySlider
             cssModule={AwsSliderStyles}
             infinite={true}
-            play={true}
+            play={false}
             cancelOnInteraction={true}
             interval={2000}
           >
@@ -128,23 +140,33 @@ export const Projects = () => {
             />
           </div>
           <div className={styles.buttonDiv}>
-            <button> Repo </button>
-            <button> Demo </button>
-            <button> Watch Demo </button>
+            <a
+              href="https://github.com/bharadwaj-bhat/Travel_Guru"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Repo
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              Demo
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              Watch Demo
+            </a>
           </div>
           <AutoplaySlider
             cssModule={AwsSliderStyles}
             infinite={true}
-            play={true}
+            play={false}
             cancelOnInteraction={true}
             interval={2000}
           >
-            <div data-src={window.location.origin + "/travelGuru/tr1.png"} />
-            <div data-src={window.location.origin + "/travelGuru/tr2.png"} />
-            <div data-src={window.location.origin + "/travelGuru/tr3.png"} />
-            <div data-src={window.location.origin + "/travelGuru/tr4.png"} />
-            <div data-src={window.location.origin + "/travelGuru/tr5.png"} />
-            <div data-src={window.location.origin + "/travelGuru/tr6.png"} />
+            <div data-src={window.location.origin + "/travel_guru/tr1.png"} />
+            <div data-src={window.location.origin + "/travel_guru/tr2.png"} />
+            <div data-src={window.location.origin + "/travel_guru/tr3.png"} />
+            <div data-src={window.location.origin + "/travel_guru/tr4.png"} />
+            <div data-src={window.location.origin + "/travel_guru/tr5.png"} />
+            <div data-src={window.location.origin + "/travel_guru/tr6.png"} />
           </AutoplaySlider>
         </div>
         <div>
@@ -185,14 +207,24 @@ export const Projects = () => {
             />{" "}
           </div>
           <div className={styles.buttonDiv}>
-            <button> Repo </button>
-            <button> Demo </button>
-            <button> Watch Demo </button>
+            <a
+              href="https://github.com/bharadwaj-bhat/Project_milaap"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Repo
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              Demo
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              Watch Demo
+            </a>
           </div>
           <AutoplaySlider
             cssModule={AwsSliderStyles}
             infinite={true}
-            play={true}
+            play={false}
             cancelOnInteraction={true}
             interval={2000}
           >
@@ -212,7 +244,7 @@ export const Projects = () => {
               data-src={window.location.origin + "/milaapImages/milaap5.png"}
             />
             <div
-              data-src={window.location.origin + "/milaapImages/milaap.png"}
+              data-src={window.location.origin + "/milaapImages/milaap6.png"}
             />
             <div
               data-src={window.location.origin + "/milaapImages/milaap7.png"}

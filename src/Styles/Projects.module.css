@@ -46,11 +46,14 @@
   align-items: center;
   margin: 30px auto;
 }
-.buttonDiv button {
+.buttonDiv a {
   border: none;
   padding: 4px 8px;
   outline: 1px solid black;
   background-color: white;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.8rem;
 }
 @media (min-width: 900px) {
   .ProjectsWrapper h1 {
