@@ -72,13 +72,7 @@ export const Projects = () => {
               Watch Demo{" "}
             </a>
           </div>
-          <AutoplaySlider
-            cssModule={AwsSliderStyles}
-            infinite={true}
-            play={false}
-            cancelOnInteraction={true}
-            interval={2000}
-          >
+          <AwesomeSlider cssModule={AwsSliderStyles}>
             <div
               data-src={window.location.origin + "//growwImages/groww1.png"}
             />
@@ -100,7 +94,7 @@ export const Projects = () => {
             <div
               data-src={window.location.origin + "/growwImages/groww7.png"}
             />
-          </AutoplaySlider>
+          </AwesomeSlider>
           <br />
         </div>
         <div>
@@ -154,20 +148,14 @@ export const Projects = () => {
               Watch Demo
             </a>
           </div>
-          <AutoplaySlider
-            cssModule={AwsSliderStyles}
-            infinite={true}
-            play={false}
-            cancelOnInteraction={true}
-            interval={2000}
-          >
+          <AwesomeSlider cssModule={AwsSliderStyles}>
             <div data-src={window.location.origin + "/travel_guru/tr1.png"} />
             <div data-src={window.location.origin + "/travel_guru/tr2.png"} />
             <div data-src={window.location.origin + "/travel_guru/tr3.png"} />
             <div data-src={window.location.origin + "/travel_guru/tr4.png"} />
             <div data-src={window.location.origin + "/travel_guru/tr5.png"} />
             <div data-src={window.location.origin + "/travel_guru/tr6.png"} />
-          </AutoplaySlider>
+          </AwesomeSlider>
         </div>
         <div>
           <div
@@ -221,13 +209,7 @@ export const Projects = () => {
               Watch Demo
             </a>
           </div>
-          <AutoplaySlider
-            cssModule={AwsSliderStyles}
-            infinite={true}
-            play={false}
-            cancelOnInteraction={true}
-            interval={2000}
-          >
+          <AwesomeSlider cssModule={AwsSliderStyles}>
             <div
               data-src={window.location.origin + "/milaapImages/milaap1.png"}
             />
@@ -249,7 +231,7 @@ export const Projects = () => {
             <div
               data-src={window.location.origin + "/milaapImages/milaap7.png"}
             />
-          </AutoplaySlider>
+          </AwesomeSlider>
         </div>
       </div>
     </div>
