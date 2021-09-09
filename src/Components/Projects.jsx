@@ -3,9 +3,9 @@ import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import AwsSliderStyles from "react-awesome-slider/dist/styles.css";
 import "../Styles/awesome-slider-override.css";
-import Divider from "@material-ui/core/Divider";
+import Carousel from "react-material-ui-carousel";
+const sliderCounter = [0, 1, 2, 3, 4, 5, 6];
 
-const AutoplaySlider = withAutoplay(AwesomeSlider);
 export const Projects = () => {
   return (
     <div id="Projects" className={styles.ProjectsWrapper}>
@@ -72,30 +72,16 @@ export const Projects = () => {
               Watch Demo{" "}
             </a>
           </div>
-          <AwesomeSlider cssModule={AwsSliderStyles}>
-            <div
-              data-src={window.location.origin + "//growwImages/groww1.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww2.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww3.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww4.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww5.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww6.png"}
-            />
-            <div
-              data-src={window.location.origin + "/growwImages/groww7.png"}
-            />
-          </AwesomeSlider>
-          <br />
+
+          <Carousel animation="slide">
+            {sliderCounter.map((el) => (
+              <img
+                style={{ width: "100%" }}
+                src={window.location.origin + `/growwImages/groww${el + 1}.png`}
+                alt=""
+              />
+            ))}
+          </Carousel>
         </div>
         <div>
           <div style={{ height: "120px", marginTop: "20px" }}>
@@ -148,14 +134,15 @@ export const Projects = () => {
               Watch Demo
             </a>
           </div>
-          <AwesomeSlider cssModule={AwsSliderStyles}>
-            <div data-src={window.location.origin + "/travel_guru/tr1.png"} />
-            <div data-src={window.location.origin + "/travel_guru/tr2.png"} />
-            <div data-src={window.location.origin + "/travel_guru/tr3.png"} />
-            <div data-src={window.location.origin + "/travel_guru/tr4.png"} />
-            <div data-src={window.location.origin + "/travel_guru/tr5.png"} />
-            <div data-src={window.location.origin + "/travel_guru/tr6.png"} />
-          </AwesomeSlider>
+          <Carousel animation="slide">
+            {sliderCounter.map((el) => (
+              <img
+                style={{ width: "100%" }}
+                src={window.location.origin + `/travel_guru/tr${el + 1}.png`}
+                alt=""
+              />
+            ))}
+          </Carousel>
         </div>
         <div>
           <div
@@ -209,29 +196,17 @@ export const Projects = () => {
               Watch Demo
             </a>
           </div>
-          <AwesomeSlider cssModule={AwsSliderStyles}>
-            <div
-              data-src={window.location.origin + "/milaapImages/milaap1.png"}
-            />
-            <div
-              data-src={window.location.origin + "/milaapImages/milaap2.png"}
-            />
-            <div
-              data-src={window.location.origin + "/milaapImages/milaap3.png"}
-            />
-            <div
-              data-src={window.location.origin + "/milaapImages/milaap4.png"}
-            />
-            <div
-              data-src={window.location.origin + "/milaapImages/milaap5.png"}
-            />
-            <div
-              data-src={window.location.origin + "/milaapImages/milaap6.png"}
-            />
-            <div
-              data-src={window.location.origin + "/milaapImages/milaap7.png"}
-            />
-          </AwesomeSlider>
+          <Carousel animation="slide">
+            {sliderCounter.map((el) => (
+              <img
+                style={{ width: "100%" }}
+                src={
+                  window.location.origin + `/milaapImages/milaap${el + 1}.png`
+                }
+                alt=""
+              />
+            ))}
+          </Carousel>
         </div>
       </div>
     </div>
