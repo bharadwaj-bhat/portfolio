@@ -16,7 +16,7 @@ export const Content = () => {
   const handleDownload = () => {
     const file = document.createElement("a");
     file.href = `${window.location.origin + "/Resume_draft2.pdf"}`;
-    file.download = "Resume_Bharadwaj_Bhat.pdf";
+    file.open = "Resume_Bharadwaj_Bhat.pdf";
     file.target = "_blank";
     file.click();
   };

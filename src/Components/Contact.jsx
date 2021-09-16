@@ -15,16 +15,22 @@ export const Contact = () => {
       </h4>
       <div className={styles.contactDiv}>
         <div>
-          <PhoneIcon fontSize="inherit" />
-          <p> Call (9742593327) </p>
+          <a
+            href="tel:9742593327"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <PhoneIcon fontSize="inherit" />
+          </a>
+          <p> Call me at 9742593327 </p>
         </div>
         <div>
-          <EmailIcon fontSize="inherit" />
+          <a
+            style={{ textDecoration: "none", color: "inherit" }}
+            href="mailto:sbhatbharadwaj24@gmail.com"
+          >
+            <EmailIcon fontSize="inherit" />
+          </a>
           <p> Mail </p>
-        </div>
-        <div>
-          <ChatBubbleIcon fontSize="inherit" />
-          <p> Message</p>
         </div>
       </div>
     </div>

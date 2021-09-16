@@ -65,11 +65,7 @@ export const Projects = () => {
             </a>
             <a href="http://" target="_blank" rel="noopener noreferrer">
               {" "}
-              Demo{" "}
-            </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              {" "}
-              Watch Demo{" "}
+              Live Site
             </a>
           </div>
 
@@ -127,11 +123,12 @@ export const Projects = () => {
             >
               Repo
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Demo
-            </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Watch Demo
+            <a
+              href="https://travelguru-clone.herokuapp.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Site
             </a>
           </div>
           <Carousel animation="slide">
@@ -190,10 +187,7 @@ export const Projects = () => {
               Repo
             </a>
             <a href="http://" target="_blank" rel="noopener noreferrer">
-              Demo
-            </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Watch Demo
+              Live Site
             </a>
           </div>
           <Carousel animation="slide">
