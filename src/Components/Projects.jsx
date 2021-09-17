@@ -63,7 +63,11 @@ export const Projects = () => {
             >
               Repo
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://groww-clone.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {" "}
               Live Site
             </a>
@@ -186,7 +190,11 @@ export const Projects = () => {
             >
               Repo
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://bharadwaj-bhat.github.io/Project_milaap/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Live Site
             </a>
           </div>
