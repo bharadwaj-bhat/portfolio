@@ -6,12 +6,111 @@ import "../Styles/awesome-slider-override.css";
 import Carousel from "react-material-ui-carousel";
 const sliderCounter = [0, 1, 2, 3, 4, 5, 6];
 
+const medium = [
+  "(0)",
+  "(1)",
+  "(2)",
+  "(3)",
+  "(4)",
+  "(5)",
+  "(6)",
+  "(7)",
+  "(8)",
+  "(9)",
+];
+
 export const Projects = () => {
   return (
     <div id="Projects" className={styles.ProjectsWrapper}>
       <h3> Some of my </h3>
       <h1> Projects </h1>
       <div className={styles.sliderWrapper}>
+        {/* //-------------------- */}
+
+        <div>
+          <div
+            style={{
+              height: "120px",
+              marginTop: "20px",
+            }}
+          >
+            <h4
+              style={{
+                padding: "0px 0px",
+                marginBottom: "-15px",
+              }}
+            >
+              {" "}
+              <span>Medium.com</span>
+            </h4>
+            <h4>
+              Clone of Medium, which is a platform that allows users to consume
+              blogs and writeups on various topics, and also let you publish
+              your own blog posts aswell.
+            </h4>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-around",
+              alignItems: "center",
+              marginBottom: "20px",
+              marginTop: "-10px",
+              color: "#878a8f",
+            }}
+          >
+            <p> Tech Stacks - </p>
+            <img
+              src={window.location.origin + "/iconImages/reactBlackIcon.png"}
+              alt=""
+            />{" "}
+            <img
+              style={{ width: "25px" }}
+              src={window.location.origin + "/iconImages/reduxIcon.png"}
+              alt=""
+            />
+            <img src={window.location.origin + "/iconImages/node.png"} alt="" />
+            <img
+              src={window.location.origin + "/iconImages/express.png"}
+              alt=""
+            />
+            <img
+              style={{ width: "25px" }}
+              src={window.location.origin + "/iconImages/mongoDb.png"}
+              alt=""
+            />
+          </div>
+          <div className={styles.buttonDiv}>
+            <a
+              href="https://github.com/Somesh-Kumar-Yadav/medium-clone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Repo
+            </a>
+            <a
+              href="https://groww-clone.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Live Site
+            </a>
+          </div>
+          <Carousel animation="slide">
+            {medium.map((el) => (
+              <img
+                style={{ width: "100%" }}
+                src={
+                  window.location.origin + `/mediumImages/screenshot ${el}.png`
+                }
+                alt=""
+              />
+            ))}
+          </Carousel>
+        </div>
+
+        {/* //------------- */}
         <div>
           <div
             style={{
