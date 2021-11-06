@@ -89,7 +89,7 @@ export const Projects = () => {
               Repo
             </a>
             <a
-              href="https://groww-clone.netlify.app/"
+              href="https://medium-app-clone.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -100,7 +100,7 @@ export const Projects = () => {
           <Carousel animation="slide">
             {medium.map((el) => (
               <img
-                style={{ width: "100%" }}
+                style={{ width: "100%", border: "2px solid rgb(245, 0, 87)" }}
                 src={
                   window.location.origin + `/mediumImages/screenshot ${el}.png`
                 }
@@ -175,7 +175,7 @@ export const Projects = () => {
           <Carousel animation="slide">
             {sliderCounter.map((el) => (
               <img
-                style={{ width: "100%" }}
+                style={{ width: "100%", border: "2px solid rgb(245, 0, 87)" }}
                 src={window.location.origin + `/growwImages/groww${el + 1}.png`}
                 alt=""
               />
@@ -237,7 +237,7 @@ export const Projects = () => {
           <Carousel animation="slide">
             {sliderCounter.map((el) => (
               <img
-                style={{ width: "100%" }}
+                style={{ width: "100%", border: "2px solid rgb(245, 0, 87)" }}
                 src={window.location.origin + `/travel_guru/tr${el + 1}.png`}
                 alt=""
               />
@@ -300,7 +300,7 @@ export const Projects = () => {
           <Carousel animation="slide">
             {sliderCounter.map((el) => (
               <img
-                style={{ width: "100%" }}
+                style={{ width: "100%", border: "2px solid rgb(245, 0, 87)" }}
                 src={
                   window.location.origin + `/milaapImages/milaap${el + 1}.png`
                 }
