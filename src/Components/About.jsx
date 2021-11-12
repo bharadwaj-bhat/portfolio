@@ -8,7 +8,7 @@ export const About = () => {
       <div>
         <p>
           {" "}
-          The name's Bharadwaj Bhat, I am a tireless seeker of knowledge,
+          My name is Bharadwaj Bhat, I am a tireless seeker of knowledge,
           occassional puryevor of wisdom and I enjoy building robust and
           responsive web applications using MERN Stack.
         </p>
